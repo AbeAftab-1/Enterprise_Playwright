@@ -15,7 +15,7 @@ exports.LoginPage = class LoginPage {
         await this.page.goto('/');
     }
 
-    async login(username, password) {
+    async enterUseridPassword(username, password) {
         // Click on Username field in the login page
         await this.username_textbox.click();
         // Enter userid in the Username field
@@ -24,6 +24,9 @@ exports.LoginPage = class LoginPage {
         await this.password_textbox.click();
         // Enter password in the Password field
         await this.password_textbox.fill(password);
+    }
+
+    async login(){
         // Click on Login button
         await this.login_button.click();
         // call Homepage class
