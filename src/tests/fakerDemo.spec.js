@@ -2,14 +2,14 @@ import { test } from '@playwright/test';
 import { demoOutput } from '../utils/fakerSample';
 import { exportToCsv, exportToJson, generateTestData } from "../utils/FakerDataUtil";
 
-
+// Remove ".skip" to run this test
 test.skip("demo faker", async () => { 
 
   console.log(demoOutput)
 
  });
 
-
+// Remove ".skip" to run this test
 test.skip("Faker", async ({ page }) => { 
 
   // Generate test data

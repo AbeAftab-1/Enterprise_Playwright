@@ -6,12 +6,15 @@ exports.Homepage = class Homepage{
     constructor(page){
         //declare constructor
         this.page = page;
+        this.click_service = page.getByRole('link', { name: 'Service' });
         this.page_heading = page.getByText('All Open Cases');
         this.contact_page = page.getByTitle('Contacts');
         this.Recently_Viewed_text = page.getByText('Recently Viewed');
     }
 
     async checkHeading(){
+        // click on "Service" link on the left frame
+        await this.click_service.click();
         // Verify "All Open Cases" text is displayed in the homepage
         await expect(this.page_heading).toBeVisible({
             timeout: 15000,

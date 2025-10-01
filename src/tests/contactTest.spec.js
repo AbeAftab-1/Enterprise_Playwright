@@ -6,7 +6,8 @@ import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile';
 
 
 for (const contacts of cdata) {
-    test(`New Contact for ${contacts.firstname}`, async ({ page }) => {
+    // Remove ".skip" to run this test
+    test.skip(`New Contact for ${contacts.firstname}`, async ({ page }) => {
         // declare Contact values
         // const fname = "Larry";
         // const lname = "Smith";

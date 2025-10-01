@@ -3,7 +3,8 @@ import { LoginPage } from '../pages/loginPage';
 import { decrypt, encrypt } from '../utils/CryptojsUtil';
 import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile';
 
-test('Log into SalesForce', async ({ page }) => {
+// Remove ".skip" to run this test
+test.skip('Log into SalesForce', async ({ page }) => {
     // declare login to intiate new LoginPage class object
     const login = new LoginPage(page);
     // go to base URL

@@ -14,6 +14,7 @@
     "@types/node": "^24.5.2"
   },
   "dependencies": {
+    "@axe-core/playwright": "^4.10.2",
     "crypto-js": "^4.2.0",
     "csv-writer": "^1.6.0",
     "csvtojson": "^2.0.10",
