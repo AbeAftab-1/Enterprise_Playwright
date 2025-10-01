@@ -1,19 +1,19 @@
-import { test, expect } from '@playwright/test';
+// importing combined axeTest fixture and login fixture
+import { test, expect } from '../fixtures/sauceFixtures';
 
 // basic test to log into saucedemo.com
-test('Basic login for Sauce Demo', async ({ page }) => {
-    // open saucedemo.com
-    await page.goto('https://www.saucedemo.com/');
-    // Enter user name
-    await page.locator('[data-test="username"]').fill('standard_user');
-    // Enter password
-    await page.locator('[data-test="password"]').fill('secret_sauce');
-    // Click "Login" button
-    await page.locator('[data-test="login-button"]').click();
-    // Verify "Swag Labs" heading is displayed
-    await expect(page.getByText('Swag Labs')).toBeVisible();
+test('Sauce Demo', async ({ saucePageLogin, makeAxeBuilder }) => {
+    // Login and verify "Swag Labs" heading is displayed
+    await saucePageLogin.checkHeading();
+
+    // Full page review
+    const loginAccessibilityScanResults = await makeAxeBuilder()
+        .analyze();
+    // Assertion
+    expect(loginAccessibilityScanResults.violations).toEqual([]);
+
     // Click on "Open Menu" button
-    await page.getByRole('button', { name: 'Open Menu' }).click();
+    await saucePageLogin.clickMenuButton();
     // Click on "Logout" button
-    await page.locator('[data-test="logout-sidebar-link"]').click();
+    await saucePageLogin.clickLogout();
 });
