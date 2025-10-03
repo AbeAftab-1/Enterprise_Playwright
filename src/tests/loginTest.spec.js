@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/loginPage';
 import { decrypt, encrypt } from '../utils/CryptojsUtil';
-import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile';
 
 // Remove ".skip" to run this test
 test.skip('Log into SalesForce', async ({ page }) => {

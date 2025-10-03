@@ -1,5 +1,6 @@
 import { test as base, expect as defaultExpect } from "@playwright/test";
 import { SauceLoginPage } from '../pages/saucePage';
+import { decrypt } from "../utils/CryptojsUtil";
 
 export const expect = defaultExpect;
 
@@ -9,12 +10,12 @@ export const test = base.extend({
         // Declare new page from sauceLoginPage 
         const sauceLogin = new SauceLoginPage(page);
 
-        // Navigate to saucedemo.com
+         // Navigate to saucedemo.com
         await sauceLogin.gotoLoginPage();
         // Enter user name
-        await sauceLogin.enterUserID('standard_user');
+        await sauceLogin.enterUserID(decrypt(process.env.standard_userid));
         // Enter password
-        await sauceLogin.enterPassword('secret_sauce');
+        await sauceLogin.enterPassword(decrypt(process.env.password));
         // Click "Login" button
         await sauceLogin.clickLoginButton();
         // Use landingPage

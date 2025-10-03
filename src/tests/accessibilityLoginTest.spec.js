@@ -1,6 +1,5 @@
 import { LoginPage } from '../pages/loginPage';
 import { decrypt, encrypt } from '../utils/CryptojsUtil';
-import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile';
 // importing axeTest fixture to verify accessibiltiy
 const { test, expect } = require('../fixtures/axeTestFixture');
 

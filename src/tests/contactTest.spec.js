@@ -2,7 +2,6 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/loginPage';
 import cdata from "../data/contacts.json";
 import { decrypt, encrypt } from '../utils/CryptojsUtil';
-import { encryptEnvFile, decryptEnvFile } from '../utils/EncryptEnvFile';
 
 
 for (const contacts of cdata) {
