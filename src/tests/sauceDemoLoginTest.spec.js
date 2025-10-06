@@ -2,7 +2,7 @@
 import { test, expect } from '../fixtures/sauceFixtures';
 
 // basic test to log into saucedemo.com
-test('Sauce Demo', async ({ saucePageLogin, makeAxeBuilder }) => {
+test('Sauce Demo Login and Logout', async ({ saucePageLogin, makeAxeBuilder }) => {
     // Login and verify "Swag Labs" heading is displayed
     await saucePageLogin.checkHeading();
 

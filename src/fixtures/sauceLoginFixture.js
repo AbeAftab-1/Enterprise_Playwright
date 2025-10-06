@@ -13,7 +13,7 @@ export const test = base.extend({
          // Navigate to saucedemo.com
         await sauceLogin.gotoLoginPage();
         // Enter user name
-        await sauceLogin.enterUserID(decrypt(process.env.standard_userid));
+        await sauceLogin.enterUserID(decrypt(process.env.userid));
         // Enter password
         await sauceLogin.enterPassword(decrypt(process.env.password));
         // Click "Login" button

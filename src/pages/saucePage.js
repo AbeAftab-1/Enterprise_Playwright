@@ -11,6 +11,10 @@ exports.SauceLoginPage = class SauceLoginPage {
         this.homepage_heading = page.getByText('Swag Labs');
         this.open_menu_button = page.getByRole('button', { name: 'Open Menu' });
         this.logout_button = page.locator('[data-test="logout-sidebar-link"]');
+        this.check_fleece_link = page.locator('[data-test="item-5-title-link"]');
+        this.check_add_fleece_button = page.locator('[data-test="add-to-cart-sauce-labs-fleece-jacket"]');
+        this.add_fleece_button = page.locator('[data-test="add-to-cart-sauce-labs-fleece-jacket"]');
+        this.go_to_cart = page.locator('[data-test="shopping-cart-link"]');
     }
 
     // Navigate to saucedemo.com    
@@ -61,6 +65,22 @@ exports.SauceLoginPage = class SauceLoginPage {
     async clickLogout() {
         await this.logout_button.click();
         logger.info('Successfully logged out');
+    }
+
+    // add fleece
+    async addFleece() {
+        await expect(this.check_fleece_link).toBeVisible({
+            timeout: 15000,
+        });
+        await expect(this.check_add_fleece_button).toBeVisible();
+        await this.add_fleece_button.click();
+        logger.info('Added Fleece to the cart');
+    }
+
+    // go to cart
+    async goToCart() {
+        await this.go_to_cart.click();
+        logger.info('Navigated to Cart Page')
     }
 
 }
