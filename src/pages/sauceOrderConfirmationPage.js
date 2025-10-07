@@ -10,16 +10,19 @@ exports.SauceOrderConfirmationPage = class SauceOrderConfirmationPage {
         this.back_home = page.locator('[data-test="back-to-products"]');
     }
 
+    // check Thank You Text
     async checkThankYouText() {
         await expect(this.thank_you_text).toBeVisible();
         logger.info('Check Thank You Text in Checkout Overview page');
     }
 
+    // Check Order Confirmation text
     async checkOrderConfirmation() {
         await expect(this.order_confirmation_text).toBeVisible();
         logger.info('Check Order Confirmation Text');
     }
 
+    // Click Back Home Button
     async clickBackHomeButton() {
         await expect(this.back_home).toBeVisible();
         logger.info('Checked Finish button');

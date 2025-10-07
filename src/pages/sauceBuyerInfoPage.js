@@ -13,31 +13,37 @@ exports.SauceBuyerInfoPage = class SauceBuyerInfoPage {
         this.cancel_button = page.locator('[data-test="cancel"]');
     }
 
+    // Check Buyers Page Title
     async checkPageTitle() {
         await expect(this.check_page_title).toContainText('Checkout: Your Information');
         logger.info('Checked Buyer Info Page Title');
     }
 
+    // Add First Name
     async addFirstName(fname) {
         await this.first_name_textbox.fill(fname); 
         logger.info('Entered first name value');
     }
 
+    // Add Last Name
     async addLastName(lname) {
         await this.last_name_textbox.fill(lname);
         logger.info('Entered last name value');
     }
 
+    // Add Zipcode
     async addZipCode(zipcode) {
         await this.zip_code_textbox.fill(zipcode);
         logger.info('Entered zip code value')
     }
 
+    // Check Cancel button on Buyer's Info Page
     async checkCancelButton() {
         await expect(this.cancel_button).toBeVisible();
         logger.info('Check Cancel Button');
     }
 
+    // Click on Contnue Button in Buyer's Info Page
     async clickContinueButton() {
         await expect(this.continue_button).toBeVisible();
         logger.info('Check Continue button');

@@ -6,26 +6,23 @@ exports.SauceCheckoutOverviewPage = class SauceCheckoutOverviewPage {
     constructor(page) {
         this.page = page;
         this.check_page_title = page.locator('[data-test="title"]');
-        this.check_subtotal_label = page.locator('[data-test="subtotal-label"]');
         this.cancel_button = page.locator('[data-test="cancel"]');
         this.finish_button = page.locator('[data-test="finish"]');
     }
 
+    // Check Checkout Overview Page Title
     async checkPageTitle() {
         await expect(this.check_page_title).toContainText('Checkout: Overview');
         logger.info('Checked Checkout Overview Page title')
     } 
 
-    async checkSubtotalLabel(price) {
-        await expect(this.check_subtotal_label).toContainText(price);
-        logger.info('Checked subtotal price');
-    }
-
+    // Check Cancel Button
     async checkCancelButton() {
         await expect(this.cancel_button).toBeVisible();
         logger.info('Checked Cancel button');
     }
 
+    // Click on Finish Button
     async clickFinishButton() {
         await expect(this.finish_button).toBeVisible();
         logger.info('Checked Finish button');

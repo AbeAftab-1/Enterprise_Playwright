@@ -11,9 +11,18 @@ exports.SauceLoginPage = class SauceLoginPage {
         this.homepage_heading = page.getByText('Swag Labs');
         this.open_menu_button = page.getByRole('button', { name: 'Open Menu' });
         this.logout_button = page.locator('[data-test="logout-sidebar-link"]');
-        this.check_fleece_link = page.locator('[data-test="item-5-title-link"]');
-        this.check_add_fleece_button = page.locator('[data-test="add-to-cart-sauce-labs-fleece-jacket"]');
-        this.add_fleece_button = page.locator('[data-test="add-to-cart-sauce-labs-fleece-jacket"]');
+        this.fleece_link = page.locator('[data-test="item-5-title-link"]');
+        this.fleece_button = page.locator('[data-test="add-to-cart-sauce-labs-fleece-jacket"]');
+        this.backpack_link = page.locator('[data-test="item-4-title-link"]');
+        this.backpack_button = page.locator('[data-test="add-to-cart-sauce-labs-backpack"]');
+        this.bike_light_link = page.locator('[data-test="item-0-title-link"]');
+        this.bike_light_button = page.locator('[data-test="add-to-cart-sauce-labs-bike-light"]');
+        this.bolt_tshirt_link = page.locator('[data-test="item-1-title-link"]');
+        this.bolt_tshirt_button = page.locator('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]');
+        this.onesie_link = page.locator('[data-test="item-2-title-link"]');
+        this.onesie_button = page.locator('[data-test="add-to-cart-sauce-labs-onesie"]');
+        this.red_tshirt_link = page.locator('[data-test="item-3-title-link"]');
+        this.red_tshirt_button = page.locator('[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]');
         this.go_to_cart = page.locator('[data-test="shopping-cart-link"]');
     }
 
@@ -69,12 +78,62 @@ exports.SauceLoginPage = class SauceLoginPage {
 
     // add fleece
     async addFleece() {
-        await expect(this.check_fleece_link).toBeVisible({
+        await expect(this.fleece_link).toBeVisible({
             timeout: 15000,
         });
-        await expect(this.check_add_fleece_button).toBeVisible();
-        await this.add_fleece_button.click();
+        await expect(this.fleece_button).toBeVisible();
+        await this.fleece_button.click();
         logger.info('Added Fleece to the cart');
+    }
+
+    // Add Backpack
+    async addBackpack() {
+        await expect(this.backpack_link).toBeVisible({
+            timeout: 15000,
+        });
+        await expect(this.backpack_button).toBeVisible();
+        await this.backpack_button.click();
+        logger.info('Added backpack to the cart');
+    }
+
+    // Add Bike Light
+    async addBikeLight() {
+        await expect(this.bike_light_link).toBeVisible({
+            timeout: 15000,
+        });
+        await expect(this.bike_light_button).toBeVisible();
+        await this.bike_light_button.click();
+        logger.info('Added Bike Light to the cart');
+    }
+
+    // Add Bolt T-Shirt
+    async addBoltTshirt() {
+        await expect(this.bolt_tshirt_link).toBeVisible({
+            timeout: 15000,
+        });
+        await expect(this.bolt_tshirt_button).toBeVisible();
+        await this.bolt_tshirt_button.click();
+        logger.info('Added Bolt T-Shirt to the cart');
+    }
+
+    // Add Onesie
+    async addOnesie() {
+        await expect(this.onesie_link).toBeVisible({
+            timeout: 15000,
+        });
+        await expect(this.onesie_button).toBeVisible();
+        await this.onesie_button.click();
+        logger.info('Added Onesie to the cart');
+    }
+
+    // Add Red T-Shirt
+    async addRedTshirt() {
+        await expect(this.red_tshirt_link).toBeVisible({
+            timeout: 15000,
+        });
+        await expect(this.red_tshirt_button).toBeVisible();
+        await this.red_tshirt_button.click();
+        logger.info('Added Red T-Shirt to the cart');
     }
 
     // go to cart

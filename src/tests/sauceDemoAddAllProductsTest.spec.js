@@ -11,12 +11,22 @@ import { SauceOrderConfirmationPage } from '../pages/sauceOrderConfirmationPage'
 
 
 // basic test to log into saucedemo.com
-test('Sauce Demo - Add Fleece', async ({ page, saucePageLogin, makeAxeBuilder }) => {
+test('Sauce Demo - Add All Products', async ({ page, saucePageLogin, makeAxeBuilder }) => {
     // Login and verify "Swag Labs" heading is displayed
     await saucePageLogin.checkHeading();
 
     // Add Fleece to Cart
     await saucePageLogin.addFleece();
+    // Add Backpack to Cart
+    await saucePageLogin.addBackpack();
+    // Add Bike Light to Cart
+    await saucePageLogin.addBikeLight();
+    // Add Bolt T-Shirt to Cart
+    await saucePageLogin.addBoltTshirt();
+    // Add Onesie to Cart
+    await saucePageLogin.addOnesie();
+    // Add Red T-Shirt to Cart
+    await saucePageLogin.addRedTshirt();
     // Go to cart
     await saucePageLogin.goToCart();
 
@@ -36,7 +46,17 @@ test('Sauce Demo - Add Fleece', async ({ page, saucePageLogin, makeAxeBuilder })
     await saucePageCart.checkCartPageCheckoutButton();
     // Verify Remove button is visible to remove Fleece from Cart
     await saucePageCart.checkRemoveFleece();
-    
+    // Verify Remove button is visible to remove Backpack from Cart
+    await saucePageCart.checkRemoveBackpack();
+    // Verify Remove button is visible to remove Bike Light from Cart
+    await saucePageCart.checkRemoveBikeLight();
+    // Verify Remove button is visible to remove Bolt T-Shirt from Cart
+    await saucePageCart.checkRemoveBoltTshirt();
+    // Verify Remove button is visible to remove Onesie from Cart
+    await saucePageCart.checkRemoveOnesie();
+    // Verify Remove button is visible to remove Red T-Shirt from Cart
+    await saucePageCart.checkRemoveRedTshirt();
+
     // Click the Checkout button
     await saucePageCart.clickCartPageCheckoutButton();
 
@@ -51,11 +71,11 @@ test('Sauce Demo - Add Fleece', async ({ page, saucePageLogin, makeAxeBuilder })
     // Check Buyer Info page heading
     await saucePageInfo.checkPageTitle();
     // Enter Buyer's first name
-    await saucePageInfo.addFirstName('John');
+    await saucePageInfo.addFirstName('Al');
     // Enter Buyer's last name
     await saucePageInfo.addLastName('Buyer');
     // Enter zip code
-    await saucePageInfo.addZipCode('00000');
+    await saucePageInfo.addZipCode('12345');
     // Check Cancel button
     await saucePageInfo.checkCancelButton();
     // Check and click Continue button
@@ -71,6 +91,7 @@ test('Sauce Demo - Add Fleece', async ({ page, saucePageLogin, makeAxeBuilder })
     const saucePageCheckOV = new SauceCheckoutOverviewPage(page);
     // Check Checkout Overview page title
     await saucePageCheckOV.checkPageTitle();
+
     // Check Cancel button
     await saucePageCheckOV.checkCancelButton();
     // Check and Click Finish button
