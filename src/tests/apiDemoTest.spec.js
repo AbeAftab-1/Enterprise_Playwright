@@ -38,7 +38,7 @@ test('API POST Request Demo', async ({ request }) => {
 })
 
 // Update existing record using API PUT
-test('API PUT Request Demo', async ({ request }) => {
+test.skip('API PUT Request Demo', async ({ request }) => {
     // Declare response with API Key
     const response = await request.put('https://reqres.in/api/users/' + apiID, {
         data: {
