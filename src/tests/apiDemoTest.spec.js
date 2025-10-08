@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test'
 var apiID;
 
 // Get API call
-test('API Get Request Demo', async({request}) => {
+test.skip('API Get Request Demo', async({request}) => {
     // Declare response
     const response = await request.get('https://reqres.in/api/users/2');
 
@@ -38,7 +38,7 @@ test('API POST Request Demo', async ({ request }) => {
 })
 
 // Update existing record using API PUT
-test.skip('API PUT Request Demo', async ({ request }) => {
+test('API PUT Request Demo', async ({ request }) => {
     // Declare response with API Key
     const response = await request.put('https://reqres.in/api/users/' + apiID, {
         data: {
