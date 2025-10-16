@@ -1,0 +1,442 @@
+2025-10-16T13:42:39-04:00 [info]: Navigated saucedemo.com
+2025-10-16T13:42:39-04:00 [info]: Entered User Id
+2025-10-16T13:42:39-04:00 [info]: Entered Password
+2025-10-16T13:42:39-04:00 [info]: Successfully logged in
+2025-10-16T13:42:39-04:00 [info]: Successfully verified homepage heading
+2025-10-16T13:42:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:42:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:42:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:42:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:42:39-04:00 [info]: Clicked Main Menu button
+2025-10-16T13:42:40-04:00 [info]: Successfully logged out
+2025-10-16T13:48:38-04:00 [info]: Navigated saucedemo.com
+2025-10-16T13:48:38-04:00 [info]: Entered User Id
+2025-10-16T13:48:38-04:00 [info]: Entered Password
+2025-10-16T13:48:38-04:00 [info]: Successfully logged in
+2025-10-16T13:48:38-04:00 [info]: Successfully verified homepage heading
+2025-10-16T13:48:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:48:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:48:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:48:39-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T13:48:39-04:00 [info]: Clicked Main Menu button
+2025-10-16T13:48:40-04:00 [info]: Successfully logged out
+2025-10-16T13:58:47-04:00 [info]: Navigated saucedemo.com
+2025-10-16T13:58:47-04:00 [info]: Entered User Id
+2025-10-16T13:58:47-04:00 [info]: Entered Password
+2025-10-16T13:58:48-04:00 [info]: Successfully logged in
+2025-10-16T13:58:48-04:00 [info]: Successfully verified homepage heading
+2025-10-16T13:58:48-04:00 [info]: Added Fleece to the cart
+2025-10-16T13:58:48-04:00 [info]: Navigated to Cart Page
+2025-10-16T13:58:48-04:00 [info]: Checked Cart Page Heading
+2025-10-16T13:58:48-04:00 [info]: Successfully verified Continue button
+2025-10-16T13:58:48-04:00 [info]: Successfully verified Checkout button
+2025-10-16T13:58:48-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T13:58:48-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T13:58:49-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T13:58:49-04:00 [info]: Entered first name value
+2025-10-16T13:58:49-04:00 [info]: Entered last name value
+2025-10-16T13:58:49-04:00 [info]: Entered zip code value
+2025-10-16T13:58:49-04:00 [info]: Check Cancel Button
+2025-10-16T13:58:49-04:00 [info]: Check Continue button
+2025-10-16T13:58:49-04:00 [info]: Clicked Continue button
+2025-10-16T14:00:00-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:00:01-04:00 [info]: Entered User Id
+2025-10-16T14:00:01-04:00 [info]: Entered Password
+2025-10-16T14:00:01-04:00 [info]: Successfully logged in
+2025-10-16T14:00:01-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:00:01-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:00:01-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:00:01-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:00:01-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:00:02-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:00:02-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:00:02-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:00:02-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:00:02-04:00 [info]: Entered first name value
+2025-10-16T14:00:02-04:00 [info]: Entered last name value
+2025-10-16T14:00:02-04:00 [info]: Entered zip code value
+2025-10-16T14:00:02-04:00 [info]: Check Cancel Button
+2025-10-16T14:00:02-04:00 [info]: Check Continue button
+2025-10-16T14:00:02-04:00 [info]: Clicked Continue button
+2025-10-16T14:00:02-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:00:02-04:00 [info]: Checked Cancel button
+2025-10-16T14:00:02-04:00 [info]: Checked Finish button
+2025-10-16T14:00:03-04:00 [info]: Clicked Finish button
+2025-10-16T14:06:16-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:06:16-04:00 [info]: Entered User Id
+2025-10-16T14:06:16-04:00 [info]: Entered Password
+2025-10-16T14:06:16-04:00 [info]: Successfully logged in
+2025-10-16T14:06:16-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:06:16-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:06:16-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:06:17-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:06:17-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:06:17-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:06:17-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:06:17-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:06:17-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:06:17-04:00 [info]: Entered first name value
+2025-10-16T14:06:17-04:00 [info]: Entered last name value
+2025-10-16T14:06:17-04:00 [info]: Entered zip code value
+2025-10-16T14:06:17-04:00 [info]: Check Cancel Button
+2025-10-16T14:06:17-04:00 [info]: Check Continue button
+2025-10-16T14:06:17-04:00 [info]: Clicked Continue button
+2025-10-16T14:06:18-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:06:18-04:00 [info]: Checked Cancel button
+2025-10-16T14:06:18-04:00 [info]: Checked Finish button
+2025-10-16T14:06:18-04:00 [info]: Clicked Finish button
+2025-10-16T14:09:40-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:09:40-04:00 [info]: Entered User Id
+2025-10-16T14:09:40-04:00 [info]: Entered Password
+2025-10-16T14:09:40-04:00 [info]: Successfully logged in
+2025-10-16T14:09:40-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:09:41-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:09:41-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:09:41-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:09:41-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:09:41-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:09:41-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:09:41-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:09:42-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:09:42-04:00 [info]: Entered first name value
+2025-10-16T14:09:42-04:00 [info]: Entered last name value
+2025-10-16T14:09:42-04:00 [info]: Entered zip code value
+2025-10-16T14:09:42-04:00 [info]: Check Cancel Button
+2025-10-16T14:09:42-04:00 [info]: Check Continue button
+2025-10-16T14:09:42-04:00 [info]: Clicked Continue button
+2025-10-16T14:09:42-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:09:42-04:00 [info]: Checked Cancel button
+2025-10-16T14:09:42-04:00 [info]: Checked Finish button
+2025-10-16T14:09:42-04:00 [info]: Clicked Finish button
+2025-10-16T14:09:43-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:09:43-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:09:43-04:00 [info]: Checked Finish button
+2025-10-16T14:09:43-04:00 [info]: Clicked Finish button
+2025-10-16T14:09:43-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:09:44-04:00 [info]: Successfully logged out
+2025-10-16T14:11:23-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:11:23-04:00 [info]: Entered User Id
+2025-10-16T14:11:23-04:00 [info]: Entered Password
+2025-10-16T14:11:24-04:00 [info]: Successfully logged in
+2025-10-16T14:11:24-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:11:24-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:11:24-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:11:24-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:11:24-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:11:24-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:11:24-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:11:24-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:11:25-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:11:25-04:00 [info]: Entered first name value
+2025-10-16T14:11:25-04:00 [info]: Entered last name value
+2025-10-16T14:11:25-04:00 [info]: Entered zip code value
+2025-10-16T14:11:25-04:00 [info]: Check Cancel Button
+2025-10-16T14:11:25-04:00 [info]: Check Continue button
+2025-10-16T14:11:25-04:00 [info]: Clicked Continue button
+2025-10-16T14:11:25-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:11:25-04:00 [info]: Checked Cancel button
+2025-10-16T14:11:25-04:00 [info]: Checked Finish button
+2025-10-16T14:11:25-04:00 [info]: Clicked Finish button
+2025-10-16T14:11:26-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:11:26-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:11:26-04:00 [info]: Checked Finish button
+2025-10-16T14:11:26-04:00 [info]: Clicked Finish button
+2025-10-16T14:11:26-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:11:27-04:00 [info]: Successfully logged out
+2025-10-16T14:16:18-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:16:18-04:00 [info]: Entered User Id
+2025-10-16T14:16:18-04:00 [info]: Entered Password
+2025-10-16T14:16:18-04:00 [info]: Successfully logged in
+2025-10-16T14:16:18-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:16:18-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:16:18-04:00 [info]: Added backpack to the cart
+2025-10-16T14:16:18-04:00 [info]: Added Bike Light to the cart
+2025-10-16T14:16:18-04:00 [info]: Added Bolt T-Shirt to the cart
+2025-10-16T14:16:18-04:00 [info]: Added Onesie to the cart
+2025-10-16T14:16:18-04:00 [info]: Added Red T-Shirt to the cart
+2025-10-16T14:16:18-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:16:19-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:16:19-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:16:19-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:16:19-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:16:19-04:00 [info]: Checked Remove Backpack button is available
+2025-10-16T14:16:19-04:00 [info]: Checked Remove Bike Light button is available
+2025-10-16T14:16:19-04:00 [info]: Checked Remove Bolt T-Shirt button is available
+2025-10-16T14:16:19-04:00 [info]: Checked Remove Onesie button is available
+2025-10-16T14:16:19-04:00 [info]: Checked Remove Red T-Shirt button is available
+2025-10-16T14:16:19-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:16:19-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:16:19-04:00 [info]: Entered first name value
+2025-10-16T14:16:19-04:00 [info]: Entered last name value
+2025-10-16T14:16:19-04:00 [info]: Entered zip code value
+2025-10-16T14:16:19-04:00 [info]: Check Cancel Button
+2025-10-16T14:16:19-04:00 [info]: Check Continue button
+2025-10-16T14:16:20-04:00 [info]: Clicked Continue button
+2025-10-16T14:16:20-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:16:20-04:00 [info]: Checked Cancel button
+2025-10-16T14:16:20-04:00 [info]: Checked Finish button
+2025-10-16T14:16:20-04:00 [info]: Clicked Finish button
+2025-10-16T14:16:20-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:16:20-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:16:20-04:00 [info]: Checked Finish button
+2025-10-16T14:16:20-04:00 [info]: Clicked Finish button
+2025-10-16T14:16:20-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:16:21-04:00 [info]: Successfully logged out
+2025-10-16T14:17:46-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:17:46-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:17:46-04:00 [info]: Entered User Id
+2025-10-16T14:17:46-04:00 [info]: Entered User Id
+2025-10-16T14:17:46-04:00 [info]: Entered Password
+2025-10-16T14:17:46-04:00 [info]: Entered Password
+2025-10-16T14:17:46-04:00 [info]: Successfully logged in
+2025-10-16T14:17:46-04:00 [info]: Successfully logged in
+2025-10-16T14:17:46-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:17:46-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:17:46-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:17:46-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:17:46-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:17:46-04:00 [info]: Added backpack to the cart
+2025-10-16T14:17:47-04:00 [info]: Added Bike Light to the cart
+2025-10-16T14:17:47-04:00 [info]: Added Bolt T-Shirt to the cart
+2025-10-16T14:17:47-04:00 [info]: Added Onesie to the cart
+2025-10-16T14:17:47-04:00 [info]: Added Red T-Shirt to the cart
+2025-10-16T14:17:47-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:17:47-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:17:47-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:17:47-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:17:47-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:17:47-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:17:47-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:17:47-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:17:47-04:00 [info]: Entered first name value
+2025-10-16T14:17:47-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Backpack button is available
+2025-10-16T14:17:47-04:00 [info]: Entered last name value
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Bike Light button is available
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Bolt T-Shirt button is available
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Onesie button is available
+2025-10-16T14:17:47-04:00 [info]: Entered zip code value
+2025-10-16T14:17:47-04:00 [info]: Checked Remove Red T-Shirt button is available
+2025-10-16T14:17:47-04:00 [info]: Check Cancel Button
+2025-10-16T14:17:47-04:00 [info]: Check Continue button
+2025-10-16T14:17:47-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:17:47-04:00 [info]: Clicked Continue button
+2025-10-16T14:17:48-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:17:48-04:00 [info]: Checked Cancel button
+2025-10-16T14:17:48-04:00 [info]: Checked Finish button
+2025-10-16T14:17:48-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:17:48-04:00 [info]: Entered first name value
+2025-10-16T14:17:48-04:00 [info]: Clicked Finish button
+2025-10-16T14:17:48-04:00 [info]: Entered last name value
+2025-10-16T14:17:48-04:00 [info]: Entered zip code value
+2025-10-16T14:17:48-04:00 [info]: Check Cancel Button
+2025-10-16T14:17:48-04:00 [info]: Check Continue button
+2025-10-16T14:17:48-04:00 [info]: Clicked Continue button
+2025-10-16T14:17:48-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:17:48-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:17:48-04:00 [info]: Checked Finish button
+2025-10-16T14:17:48-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:17:48-04:00 [info]: Clicked Finish button
+2025-10-16T14:17:48-04:00 [info]: Checked Cancel button
+2025-10-16T14:17:48-04:00 [info]: Checked Finish button
+2025-10-16T14:17:48-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:17:48-04:00 [info]: Clicked Finish button
+2025-10-16T14:17:49-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:17:49-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:17:49-04:00 [info]: Checked Finish button
+2025-10-16T14:17:49-04:00 [info]: Clicked Finish button
+2025-10-16T14:17:49-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:17:49-04:00 [info]: Successfully logged out
+2025-10-16T14:17:50-04:00 [info]: Successfully logged out
+2025-10-16T14:17:50-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:17:50-04:00 [info]: Entered User Id
+2025-10-16T14:17:50-04:00 [info]: Entered Password
+2025-10-16T14:17:50-04:00 [info]: Successfully logged in
+2025-10-16T14:17:50-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:17:50-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:17:51-04:00 [info]: Entered User Id
+2025-10-16T14:17:51-04:00 [info]: Entered Password
+2025-10-16T14:17:51-04:00 [info]: Successfully logged in
+2025-10-16T14:17:51-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:17:51-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:17:51-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:17:51-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:17:51-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:17:51-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:17:51-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:17:52-04:00 [info]: Successfully logged out
+2025-10-16T14:17:52-04:00 [info]: Successfully logged out
+2025-10-16T14:20:15-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:20:15-04:00 [info]: Entered User Id
+2025-10-16T14:20:15-04:00 [info]: Entered Password
+2025-10-16T14:20:15-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:20:15-04:00 [info]: Successfully logged in
+2025-10-16T14:20:15-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:20:15-04:00 [info]: Entered User Id
+2025-10-16T14:20:16-04:00 [info]: Entered Password
+2025-10-16T14:20:16-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:20:16-04:00 [info]: Added backpack to the cart
+2025-10-16T14:20:16-04:00 [info]: Successfully logged in
+2025-10-16T14:20:16-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:20:16-04:00 [info]: Added Bike Light to the cart
+2025-10-16T14:20:16-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:20:16-04:00 [info]: Added Bolt T-Shirt to the cart
+2025-10-16T14:20:16-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:20:16-04:00 [info]: Added Onesie to the cart
+2025-10-16T14:20:16-04:00 [info]: Added Red T-Shirt to the cart
+2025-10-16T14:20:16-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:20:16-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:20:16-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:20:16-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:20:16-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:20:17-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:20:17-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:20:17-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:20:17-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:20:17-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:20:17-04:00 [info]: Checked Remove Backpack button is available
+2025-10-16T14:20:17-04:00 [info]: Checked Remove Bike Light button is available
+2025-10-16T14:20:17-04:00 [info]: Checked Remove Bolt T-Shirt button is available
+2025-10-16T14:20:17-04:00 [info]: Checked Remove Onesie button is available
+2025-10-16T14:20:17-04:00 [info]: Checked Remove Red T-Shirt button is available
+2025-10-16T14:20:17-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:20:17-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:20:17-04:00 [info]: Entered first name value
+2025-10-16T14:20:17-04:00 [info]: Entered last name value
+2025-10-16T14:20:17-04:00 [info]: Entered zip code value
+2025-10-16T14:20:17-04:00 [info]: Check Cancel Button
+2025-10-16T14:20:17-04:00 [info]: Check Continue button
+2025-10-16T14:20:17-04:00 [info]: Clicked Continue button
+2025-10-16T14:20:17-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:20:17-04:00 [info]: Entered first name value
+2025-10-16T14:20:17-04:00 [info]: Entered last name value
+2025-10-16T14:20:17-04:00 [info]: Entered zip code value
+2025-10-16T14:20:17-04:00 [info]: Check Cancel Button
+2025-10-16T14:20:17-04:00 [info]: Check Continue button
+2025-10-16T14:20:17-04:00 [info]: Clicked Continue button
+2025-10-16T14:20:17-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:20:17-04:00 [info]: Checked Cancel button
+2025-10-16T14:20:17-04:00 [info]: Checked Finish button
+2025-10-16T14:20:17-04:00 [info]: Clicked Finish button
+2025-10-16T14:20:18-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:20:18-04:00 [info]: Checked Cancel button
+2025-10-16T14:20:18-04:00 [info]: Checked Finish button
+2025-10-16T14:20:18-04:00 [info]: Clicked Finish button
+2025-10-16T14:20:18-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:20:18-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:20:18-04:00 [info]: Checked Finish button
+2025-10-16T14:20:18-04:00 [info]: Clicked Finish button
+2025-10-16T14:20:18-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:20:18-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:20:18-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:20:18-04:00 [info]: Checked Finish button
+2025-10-16T14:20:18-04:00 [info]: Clicked Finish button
+2025-10-16T14:20:18-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:20:19-04:00 [info]: Successfully logged out
+2025-10-16T14:20:19-04:00 [info]: Successfully logged out
+2025-10-16T14:20:20-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:20:20-04:00 [info]: Entered User Id
+2025-10-16T14:20:20-04:00 [info]: Entered Password
+2025-10-16T14:20:20-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:20:20-04:00 [info]: Successfully logged in
+2025-10-16T14:20:20-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:20:20-04:00 [info]: Entered User Id
+2025-10-16T14:20:20-04:00 [info]: Entered Password
+2025-10-16T14:20:20-04:00 [info]: Successfully logged in
+2025-10-16T14:20:20-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:20:20-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:20:20-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:20:20-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:20:20-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:20:20-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:20:21-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:20:21-04:00 [info]: Successfully logged out
+2025-10-16T14:20:21-04:00 [info]: Successfully logged out
+2025-10-16T14:21:45-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:21:45-04:00 [info]: Entered User Id
+2025-10-16T14:21:45-04:00 [info]: Entered Password
+2025-10-16T14:21:45-04:00 [info]: Successfully logged in
+2025-10-16T14:21:45-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:21:45-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:21:45-04:00 [info]: Entered User Id
+2025-10-16T14:21:45-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:21:45-04:00 [info]: Entered Password
+2025-10-16T14:21:45-04:00 [info]: Added backpack to the cart
+2025-10-16T14:21:45-04:00 [info]: Successfully logged in
+2025-10-16T14:21:45-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:21:45-04:00 [info]: Added Bike Light to the cart
+2025-10-16T14:21:45-04:00 [info]: Added Fleece to the cart
+2025-10-16T14:21:45-04:00 [info]: Added Bolt T-Shirt to the cart
+2025-10-16T14:21:45-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:21:46-04:00 [info]: Added Onesie to the cart
+2025-10-16T14:21:46-04:00 [info]: Added Red T-Shirt to the cart
+2025-10-16T14:21:46-04:00 [info]: Navigated to Cart Page
+2025-10-16T14:21:46-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:21:46-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:21:46-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:21:46-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:21:46-04:00 [info]: Checked Cart Page Heading
+2025-10-16T14:21:46-04:00 [info]: Successfully verified Continue button
+2025-10-16T14:21:46-04:00 [info]: Successfully verified Checkout button
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Fleece button is available
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Backpack button is available
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Bike Light button is available
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Bolt T-Shirt button is available
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Onesie button is available
+2025-10-16T14:21:46-04:00 [info]: Checked Remove Red T-Shirt button is available
+2025-10-16T14:21:46-04:00 [info]: Clicked Checkout button in Cart page
+2025-10-16T14:21:46-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:21:47-04:00 [info]: Entered first name value
+2025-10-16T14:21:47-04:00 [info]: Entered last name value
+2025-10-16T14:21:47-04:00 [info]: Entered zip code value
+2025-10-16T14:21:47-04:00 [info]: Check Cancel Button
+2025-10-16T14:21:47-04:00 [info]: Check Continue button
+2025-10-16T14:21:47-04:00 [info]: Checked Buyer Info Page Title
+2025-10-16T14:21:47-04:00 [info]: Entered first name value
+2025-10-16T14:21:47-04:00 [info]: Clicked Continue button
+2025-10-16T14:21:47-04:00 [info]: Entered last name value
+2025-10-16T14:21:47-04:00 [info]: Entered zip code value
+2025-10-16T14:21:47-04:00 [info]: Check Cancel Button
+2025-10-16T14:21:47-04:00 [info]: Check Continue button
+2025-10-16T14:21:47-04:00 [info]: Clicked Continue button
+2025-10-16T14:21:47-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:21:47-04:00 [info]: Checked Cancel button
+2025-10-16T14:21:47-04:00 [info]: Checked Finish button
+2025-10-16T14:21:47-04:00 [info]: Clicked Finish button
+2025-10-16T14:21:47-04:00 [info]: Checked Checkout Overview Page title
+2025-10-16T14:21:47-04:00 [info]: Checked Cancel button
+2025-10-16T14:21:47-04:00 [info]: Checked Finish button
+2025-10-16T14:21:47-04:00 [info]: Clicked Finish button
+2025-10-16T14:21:47-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:21:47-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:21:47-04:00 [info]: Checked Finish button
+2025-10-16T14:21:47-04:00 [info]: Clicked Finish button
+2025-10-16T14:21:47-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:21:48-04:00 [info]: Check Thank You Text in Checkout Overview page
+2025-10-16T14:21:48-04:00 [info]: Check Order Confirmation Text
+2025-10-16T14:21:48-04:00 [info]: Checked Finish button
+2025-10-16T14:21:48-04:00 [info]: Clicked Finish button
+2025-10-16T14:21:48-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:21:48-04:00 [info]: Successfully logged out
+2025-10-16T14:21:49-04:00 [info]: Successfully logged out
+2025-10-16T14:21:49-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:21:49-04:00 [info]: Navigated saucedemo.com
+2025-10-16T14:21:49-04:00 [info]: Entered User Id
+2025-10-16T14:21:49-04:00 [info]: Entered User Id
+2025-10-16T14:21:50-04:00 [info]: Entered Password
+2025-10-16T14:21:50-04:00 [info]: Entered Password
+2025-10-16T14:21:50-04:00 [info]: Successfully logged in
+2025-10-16T14:21:50-04:00 [info]: Successfully logged in
+2025-10-16T14:21:50-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:21:50-04:00 [info]: Successfully verified homepage heading
+2025-10-16T14:21:50-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:21:50-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:21:50-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:21:50-04:00 [info]: Sorted products in Homepage with key
+2025-10-16T14:21:50-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:21:50-04:00 [info]: Clicked Main Menu button
+2025-10-16T14:21:51-04:00 [info]: Successfully logged out
+2025-10-16T14:21:51-04:00 [info]: Successfully logged out

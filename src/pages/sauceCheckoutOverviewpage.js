@@ -1,5 +1,7 @@
 import { page, expect} from '@playwright/test';
 import logger, { Logger } from '../utils/LoggerUtil';
+// importing SauceOrderconfirmationPage
+import { SauceOrderConfirmationPage } from '../pages/sauceOrderConfirmationPage';
 
 exports.SauceCheckoutOverviewPage = class SauceCheckoutOverviewPage {
     // Declaring consturctor
@@ -28,5 +30,9 @@ exports.SauceCheckoutOverviewPage = class SauceCheckoutOverviewPage {
         logger.info('Checked Finish button');
         await this.finish_button.click();
         logger.info('Clicked Finish button');
+
+        // Declaring saucePageConfirmation Instance
+        const saucePageConfirmation = new SauceOrderConfirmationPage(this.page);
+        return saucePageConfirmation;
     }
 }

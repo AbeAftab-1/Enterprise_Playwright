@@ -4,10 +4,8 @@ import { test, expect } from '../fixtures/sauceFixtures';
 import { SauceCartPage } from '../pages/sauceCartPage';
 // importing SauceBuyerInfoPage
 import { SauceBuyerInfoPage } from '../pages/sauceBuyerInfoPage';
-// importing SauceCheckoutOverviewPage
+// importing SauceCheckoutOverviewPage (and SauceOrderconfirmationPage using chaining pages)
 import { SauceCheckoutOverviewPage } from '../pages/sauceCheckoutOverviewpage';
-// importing SauceOrderconfirmationPage
-import { SauceOrderConfirmationPage } from '../pages/sauceOrderConfirmationPage';
 
 
 // basic test to log into saucedemo.com
@@ -94,8 +92,8 @@ test('Sauce Demo - Add All Products', async ({ page, saucePageLogin, makeAxeBuil
 
     // Check Cancel button
     await saucePageCheckOV.checkCancelButton();
-    // Check and Click Finish button
-    await saucePageCheckOV.clickFinishButton();
+    // Check and Click Finish button and initialize saucePageConfirmation
+    const saucePageConfirmation = await saucePageCheckOV.clickFinishButton();
 
     // Full page review of Confirmation Page
     const confirmationAccessibilityScanResults = await makeAxeBuilder()
@@ -103,8 +101,6 @@ test('Sauce Demo - Add All Products', async ({ page, saucePageLogin, makeAxeBuil
     // Assertion
     expect(confirmationAccessibilityScanResults.violations).toEqual([]);
 
-    // Declaring saucePageConfirmation Instance
-    const saucePageConfirmation = new SauceOrderConfirmationPage(page);
     // Check for Thank you text
     await saucePageConfirmation.checkThankYouText();
     // Check Order Confirmation text

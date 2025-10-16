@@ -24,6 +24,7 @@ exports.SauceLoginPage = class SauceLoginPage {
         this.red_tshirt_link = page.locator('[data-test="item-3-title-link"]');
         this.red_tshirt_button = page.locator('[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]');
         this.go_to_cart = page.locator('[data-test="shopping-cart-link"]');
+        this.product_sort_dropdown = page.locator('[data-test="product-sort-container"]');
     }
 
     // Navigate to saucedemo.com    
@@ -139,7 +140,13 @@ exports.SauceLoginPage = class SauceLoginPage {
     // go to cart
     async goToCart() {
         await this.go_to_cart.click();
-        logger.info('Navigated to Cart Page')
+        logger.info('Navigated to Cart Page');
+    }
+
+    // Select product sort order
+    async sortProduct(sortkey) {
+        await this.product_sort_dropdown.selectOption(sortkey);        
+        logger.info('Sorted products in Homepage with key')
     }
 
 }
