@@ -1,5 +1,7 @@
 import { page, expect} from '@playwright/test';
 import logger, { Logger } from '../utils/LoggerUtil';
+// Importing SauceIndividualProductPage
+import {SauceIndividualProductPage} from '../pages/sauceIndividualProductPage';
 
 exports.SauceLoginPage = class SauceLoginPage {
     // Declaring contructor
@@ -25,6 +27,13 @@ exports.SauceLoginPage = class SauceLoginPage {
         this.red_tshirt_button = page.locator('[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]');
         this.go_to_cart = page.locator('[data-test="shopping-cart-link"]');
         this.product_sort_dropdown = page.locator('[data-test="product-sort-container"]');
+
+        this.red_t_shirt_title = 'Test.allTheThings() T-Shirt (Red)';
+        this.onesie_title = 'Sauce Labs Onesie';
+        this.bolt_tshirt_title = 'Sauce Labs Bolt T-Shirt';
+        this.bike_light_title = 'Sauce Labs Bike Light';
+        this.backpack_title = 'Sauce Labs Backpack';
+        this.fleece_title = 'Sauce Labs Fleece Jacket';
     }
 
     // Navigate to saucedemo.com    
@@ -147,6 +156,78 @@ exports.SauceLoginPage = class SauceLoginPage {
     async sortProduct(sortkey) {
         await this.product_sort_dropdown.selectOption(sortkey);        
         logger.info('Sorted products in Homepage with key')
+    }
+
+    // Go to Fleece Page 
+    async goToFleecePage(){
+        await this.fleece_link.click();
+        logger.info('Navigated to Fleece page');
+
+        // Declaring SauceIndvProd Instance
+        const SauceIndvProd = new SauceIndividualProductPage(this.page);
+        // Check product name
+        await SauceIndvProd.verifyProductName(this.fleece_title);
+        return SauceIndvProd;
+    }
+
+    // Go to Backpack Page
+    async goToBackpackPage(){
+        await this.backpack_link.click();
+        logger.info('Navigated to Backpack page');
+
+        // Declaring SauceIndvProd Instance
+        const SauceIndvProd = new SauceIndividualProductPage(this.page);
+        // Check product name
+        await SauceIndvProd.verifyProductName(this.backpack_title);
+        return SauceIndvProd;
+    }
+
+    // Go to Bike Light Page
+    async goToBikeLightPage(){
+        await this.bike_light_link.click();
+        logger.info('Navigated to Bike Light Page');
+
+        // Declaring SauceIndvProd Instance
+        const SauceIndvProd = new SauceIndividualProductPage(this.page);
+        // Check product name
+        await SauceIndvProd.verifyProductName(this.bike_light_title);
+        return SauceIndvProd;
+    }
+
+    // Go to T Shirt Page
+    async goToTShirtPage(){
+        await this.bolt_tshirt_link.click();
+        logger.info('Navigated to T Shirt Page');
+
+        // Declaring SauceIndvProd Instance
+        const SauceIndvProd = new SauceIndividualProductPage(this.page);
+        // Check product name
+        await SauceIndvProd.verifyProductName(this.bolt_tshirt_title);
+        return SauceIndvProd;
+    }
+
+    // Go to Onesie page
+    async goToOnesiePage(){
+        await this.onesie_link.click();
+        logger.info('Navigated to Onesie Page');
+
+        // Declaring SauceIndvProd Instance
+        const SauceIndvProd = new SauceIndividualProductPage(this.page);
+        // Check product name
+        await SauceIndvProd.verifyProductName(this.onesie_title);
+        return SauceIndvProd;
+    }
+
+    // Go to Red T Shirt Page
+    async goToRedTShirtPage(){
+        await this.red_tshirt_link.click();
+        logger.info('Navigated to Red T Shirt Page');
+
+        // Declaring SauceIndvProd Instance
+        const SauceIndvProd = new SauceIndividualProductPage(this.page);
+        // Check product name
+        await SauceIndvProd.verifyProductName(this.red_t_shirt_title);
+        return SauceIndvProd;
     }
 
 }
