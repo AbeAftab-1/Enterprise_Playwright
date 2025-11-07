@@ -1,5 +1,7 @@
 import { page, expect} from '@playwright/test';
 import logger, { Logger } from '../utils/LoggerUtil';
+// Importing SauceCheckoutOverviewPage
+import { SauceCheckoutOverviewPage } from '../pages/sauceCheckoutOverviewpage';
 
 exports.SauceBuyerInfoPage = class SauceBuyerInfoPage {
     // Declaring constructor
@@ -49,5 +51,9 @@ exports.SauceBuyerInfoPage = class SauceBuyerInfoPage {
         logger.info('Check Continue button');
         await this.continue_button.click();
         logger.info('Clicked Continue button');
+
+        // Declaring SauceCheckoutOverview Instance
+        const SauceCheckoutOverview = new SauceCheckoutOverviewPage(this.page);
+        return SauceCheckoutOverview;
     }
 }

@@ -2,11 +2,8 @@
 import { test, expect } from '../fixtures/sauceFixtures';
 // importing SauceCartPage
 import { SauceCartPage } from '../pages/sauceCartPage';
-// importing SauceBuyerInfoPage
+// importing SauceBuyerInfoPage ( with SauceCheckoutOverviewPage and SauceOrderconfirmationPage using chaining pages)
 import { SauceBuyerInfoPage } from '../pages/sauceBuyerInfoPage';
-// importing SauceCheckoutOverviewPage (and SauceOrderconfirmationPage using chaining pages)
-import { SauceCheckoutOverviewPage } from '../pages/sauceCheckoutOverviewpage';
-
 
 
 test('Sauce Demo - Add products in individual product pages', async ({ page, saucePageLogin, makeAxeBuilder }) => {
@@ -94,8 +91,8 @@ test('Sauce Demo - Add products in individual product pages', async ({ page, sau
     await saucePageInfo.addZipCode('12345');
     // Check Cancel button
     await saucePageInfo.checkCancelButton();
-    // Check and click Continue button
-    await saucePageInfo.clickContinueButton();
+    // Check and click Continue button and Declaring saucePageCheckoutOV Instance
+    const saucePageCheckOV = await saucePageInfo.clickContinueButton();
 
     // Full page review of Checkout Overview Page
     const checkoutOverviewAccessibilityScanResults = await makeAxeBuilder()
@@ -103,8 +100,6 @@ test('Sauce Demo - Add products in individual product pages', async ({ page, sau
     // Assertion
     expect(checkoutOverviewAccessibilityScanResults.violations).toEqual([]);
 
-    // Declaring saucePageCheckoutOV Instance
-    const saucePageCheckOV = new SauceCheckoutOverviewPage(page);
     // Check Checkout Overview page title
     await saucePageCheckOV.checkPageTitle();
 
